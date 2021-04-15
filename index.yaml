@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  hello-amin:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-15T10:28:46.983285976+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 9a49b2b597ee40a385e1e389a7a0039ec4a2fdfdb835e340a7b0784740418b4c
+    name: hello-amin
+    type: application
+    urls:
+    - hello-amin-0.1.0.tgz
+    version: 0.1.0
   nginx-dep:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-15T09:44:05.160115334+02:00"
+    created: "2021-04-15T10:28:46.983550635+02:00"
     description: A Helm chart for Kubernetes
     digest: c0dd966ccbdd4d2c870cfdfdcb1ce09251df6d0a119e954124f3f64cc85d57ae
     name: nginx-dep
@@ -11,4 +22,4 @@ entries:
     urls:
     - nginx-dep-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-15T09:44:05.159240206+02:00"
+generated: "2021-04-15T10:28:46.982497095+02:00"
